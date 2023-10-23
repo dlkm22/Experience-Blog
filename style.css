@@ -1,0 +1,27 @@
+h1{
+    font-size: 50px;
+}
+
+.text{
+    font-size: 30px;
+}
+
+.navbar{
+    background-color: black;
+    overflow: hidden;
+}
+
+.navbar a{
+    font-size: 30px;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: green;
+    text-decoration: underline;
+}
+
