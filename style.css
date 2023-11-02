@@ -6,22 +6,9 @@ h1{
     font-size: 30px;
 }
 
-.navbar{
-    background-color: black;
-    overflow: hidden;
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
-
-.navbar a{
-    font-size: 30px;
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.navbar a:hover{
-    background-color: green;
-    text-decoration: underline;
-}
-
