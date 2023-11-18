@@ -1,14 +1,16 @@
 {
-	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "../../../Downloads/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js"
-		},
-		{
-			"path": "../../../Downloads/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css"
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../../../Downloads/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js"
+    },
+    {
+      "path": "../../../Downloads/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Experience-Blog"
+  }
 }

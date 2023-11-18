@@ -53,36 +53,42 @@
       </nav>
 
     <body>
-        <h1>Week 3 Blog</h1>>
+        <h1>Week 4 Blog</h1>>
 
-        <p>It is Week 3 of the assignment, so far things are looking good!</p>
+        <p>T-minus 1 week to the hackathon!</p>
 
-        <p>For this week, we have finished our inception deck and also allocated roles.</p>
+        <p>This week, we discussed the implementation of the database and related functions.</p>
 
-        <p>We discussed the timeline for the project and delegated the work accordingly.</p>
+        <p>The database we have decided to go with is Microsoft SQL Server Management Studio (MSSQL).</p>
 
-        <p>Below is an image of the roles we each have in this project.</p>
-        <img src="images/roles_pfd.jpg" class="center">
-        <P>As seen above, I am in charge of handling the insertion of data from Python to Microsoft SQL Server.</P>
+        <p>We decided to go with this database management system as we have used it before, thus it is familiar to us and easier to use.</p>
 
-        <p>This is an important task as the data of the employees such as their check in and check out time will be recorded and inserted into the database.</p>
+        <p>Below is a picture of the tables that are to be implemented for the database.</p>
 
-        <p>This step is crucial when we link the RFID Reader to the Raspberry Pi, and the Raspberry pi to the computer.</p>
+        <img src="images/tables.jpg" class="center">
 
-        <p>When the RFID Reader detects an employee walking past it, it records important data that can be used for business purposes.</p>
+        <p>We have 3 tables: The Employee table, Shift table and Records table.</p>
 
-        <p>In the picture below, the tables and data for our database is shown.</p>
-        <img src="images/db_pfd.jpg" class="center">
+        <p>The Employee table includes information such as the name of the employee and the shift of the employee.</p>
 
-        <p>My groupmate Thian Ping is responsible for handling the creation of the database and tables,</p>
-        <p>while I am in charge of handling the insertion of data into the database.</p>
+        <p>The Shift table stores the different shifts as individual IDs. For example, ShiftID 1 stores the ShiftIn and ShiftOut time as 09:00:00 and 17:00:00 respectively.</p>
 
-        <p>I volunteered to work on the insertion of data into MSSQL through Python as I have not used python in a while and want to refresh my knowledge.</p>
-        <p>More importantly, Python is one of the most used languages for data analytics, so handling this task will allow me to learn and gain more experience.</p>
+        <p>The records table is responsible for taking down the employees' actual time in and time out time into work.</p>
 
-        <p>One problem we faced was deciding what data was necessary and what wasn't. Thankfully, we got it all sorted out before the end of class.</p>
+        <p>The implementation of this database assumes that there are no part-timers, only full-timers.</p>
 
-        <p>This week, I've learnt how to use Python together with MSSQL, and I've also learnt to brainstorm effectively.</p>
+        <p>Below is an image of the command that will be used to grant users administrative permissions.</p>
+
+        <img src="images/permission.jpg" class="center">
+
+        <p>For my part of the assignment, which is to insert data into MSSQL through Python, some progress has been made.</p>
+
+        <p>I have been able to retrieve and insert data into the tables using the <a href="https://pypi.org/project/pyodbc/" target="_blank">pyodbc module</a>!</p>
+
+        <p>This module aims to make accessing ODBC databases simple.</p>
+
+        <p>That's all for Week 4, looking forward to Week 5!</p>
+
     </body>
 
 </html>
